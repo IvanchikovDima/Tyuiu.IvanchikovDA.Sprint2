@@ -18,8 +18,7 @@ namespace Tyuiu.IvanchikovDA.Sprint2.Task1.V13
             int c = 164;
             int d = 137;
 
-            bool[] res = new bool[6];
-            res ds.GetLogicOperations(a, b, c, d);
+            bool[] res = new bool[6];         
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -37,6 +36,10 @@ namespace Tyuiu.IvanchikovDA.Sprint2.Task1.V13
             for (int i = 0; i < 6; i++)
             {
                 Console.WriteLine(res[i]);
+            }
+
+            {
+                res ds.GetLogicOperations(a, b, c, d);
             }
 
             Console.ReadKey();
